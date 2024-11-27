@@ -288,3 +288,116 @@ nav{
     margin-bottom: 4px;
 
 }
+.heading-2{
+    color: black;
+    width: 100%;
+    margin-top: 7%;
+    margin-left:5%;
+}
+.second-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 1% 4%;
+}
+.pic{
+    width: 24%;
+    height:220px;
+    display: flex;
+    
+}
+.pic >p {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: black;
+    
+    flex-direction: column-reverse;
+    
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 2%;
+    font-size: 21px;
+    background: white;
+    padding: 6px;
+    align-items: flex-end;
+    
+    border-radius: 5px;
+}
+.pic >img {
+    border-radius: 15px 15px 15px 15px;
+}
+.home-panda{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.paraa{
+    width: 91%;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(63, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto 5%;
+    border-radius: 15px;
+    transform: scaleY(1.5);
+    background-color: #e21b70;
+    font-size: 14px;
+    
+}
+.paraa > .para1{
+    margin-top: 10px;
+    padding-top: 1px;
+}
+.paraa > .para-btn>button{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+.home-panda>img{
+    position: absolute;
+    right: 0px;
+    height: 420px;
+    
+
+}
+.headingg{
+    width: 99%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 5%;
+    margin-bottom: 50px;
+}
+.parag{
+    width: 45%;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(63, 58, 58, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto 5%;
+    border-radius: 15px;
+    transform: scaleY(1.5);
+    background-color: white;
+    font-size: 15px;
+    
+}
+.paragrafh{
+    width: 99%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding-left: 5%;
+    margin-bottom: 50px;
+}
